@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admon System | Library</title>
+    <link rel="stylesheet" href="./system-admin-style.css">
+  
+</head>
+<body>
+        <form class="formulario" data-="form-info">
+            <img src="https://cdn-icons-gif.flaticon.com/6454/6454149.gif" alt="" class="logo-principal">
+
+            <div>
+                <h1>Sistema de Ingreso de Libros</h1>
+                <h3>Añade un libro nuevo</h3>
+            </div>
+            <div>
+                <label for="categorias">Seleccione Categoria</label>
+                <select name="Nuevo Ingreso" class="cajita-input">
+                    <option value="">none</option>
+                    <option value="">Aventura</option>
+                    <option value="">Misterio</option>
+                    <option value="">Ciencia Ficcion</option>
+                    <option value="">Medicina</option>
+                    <option value="">Cocina</option>
+                    <option value="">Amor</option>
+                    <option value="">Motivacionales</option>
+                </select>
+            </div>
+    
+        <div class="data-general">
+            <input type="text" placeholder="Titulo" class="cajita-inputDos"> 
+            <input type="text" placeholder="Autor">
+            <input type="date">
+            <input type="text" placeholder="Resumen / descripcion" class="descripcion">
+            <p>Portada de libro</p>
+            <div>
+                <textarea id="buscador"></textarea><br> 
+                <p> Seleciona una portada para el libro desde tu Pc.</p>
+                <input type="file" id="filetoRead" /> 
+                <a href="./registro-libro.html">
+                    <input type="button" value="Agregar Libro" class="btn-add">
+                </a> 
+            </div>
+        </div>
+     </form>   
+     <div class="botonera"> 
+         <a href="./lista-de-libros.html">
+            <button class="btn-menu">Inventario de libros</button>
+         </a>
+            <a href="./usuarios.html">
+                <button class="btn-menu">Usuarios y Cuentas</button>
+            </a>  
+        <a href="./informacion-sistema.html">
+            <button class="btn-menu">Informacion del sistema</button>  
+        </a>
+         <a href="./index.html">
+            <button class="btn-close-sesion">Cerrar Sesion</button>   
+         </a> 
+         </div>
+     </div>
+ <div>
+ <script src="./file-wanted.js"></script>
+</body>
+</html>
